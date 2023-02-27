@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Proyecto Final CV</title>
+</head>
+<body>
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <div class="logo">Cosme Fulanito</div>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#educacion-experiencia" onclick="seleccionar(this)">EXPERIENCIA</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <h1>Cosme Fulanito</h1>
+                <div class="contenedor-foto">
+                    <img src="img/foto.jpg" alt="">
+                </div>
+                <h2>Desarrollador Web</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam volutpat urna erat, vel eleifend libero ornare ut. 
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobremi">
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, soy <span>Cosme Fulanito</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mattis fringilla imperdiet. Duis vel pellentesque odio. 
+            Suspendisse accumsan elit quam, vel aliquet tortor dignissim at. Aliquam at molestie magna.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#"">Descargar CV</a>
+        </div>
+    </section>
+
+    <section id="educacion-experiencia">
+        <div class="columnas">
+            <div class="educacion">
+                <h2 class="titulo">Educacion</h2>
+                <div class="contenido-sec">
+                    <div class="info">
+                        <div class="fecha">2000-2010</div>
+                        <div class="contenido">
+                            <p>Titulo</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis odio diam, lobortis dapibus ante fermentum eleifend.
+                            Donec sed vehicula quam. Nulla lacinia quis felis eget dapibus. Aenean in lectus eget velit lacinia mollis a quis libero.
+                            In hac habitasse platea dictumst.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="contenido-sec">
+                    <div class="info">
+                        <div class="fecha">2000-2010</div>
+                        <div class="contenido">
+                            <p>Titulo</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis odio diam, lobortis dapibus ante fermentum eleifend.
+                                Donec sed vehicula quam. Nulla lacinia quis felis eget dapibus. Aenean in lectus eget velit lacinia mollis a quis libero.
+                                In hac habitasse platea dictumst.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="contenido-sec">
+                    <div class="info">
+                        <div class="fecha">2000-2010</div>
+                        <div class="contenido">
+                            <p>Titulo</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis odio diam, lobortis dapibus ante fermentum eleifend.
+                                Donec sed vehicula quam. Nulla lacinia quis felis eget dapibus. Aenean in lectus eget velit lacinia mollis a quis libero.
+                                In hac habitasse platea dictumst.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experiencia">
+                <h2 class="titulo">Experiencia</h2>
+                <div class="contenido-sec">
+                    <div class="info">
+                        <div class="fecha">2000-2010</div>
+                        <div class="contenido">
+                            <p>Titulo</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis odio diam, lobortis dapibus ante fermentum eleifend.
+                            Donec sed vehicula quam. Nulla lacinia quis felis eget dapibus. Aenean in lectus eget velit lacinia mollis a quis libero.
+                            In hac habitasse platea dictumst.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contenido-sec">
+                    <div class="info">
+                        <div class="fecha">2000-2010</div>
+                        <div class="contenido">
+                            <p>Titulo</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis odio diam, lobortis dapibus ante fermentum eleifend.
+                                Donec sed vehicula quam. Nulla lacinia quis felis eget dapibus. Aenean in lectus eget velit lacinia mollis a quis libero.
+                                In hac habitasse platea dictumst.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenido-sec">
+                    <div class="info">
+                        <div class="fecha">2000-2010</div>
+                        <div class="contenido">
+                            <p>Titulo</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis odio diam, lobortis dapibus ante fermentum eleifend.
+                                Donec sed vehicula quam. Nulla lacinia quis felis eget dapibus. Aenean in lectus eget velit lacinia mollis a quis libero.
+                                In hac habitasse platea dictumst.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
